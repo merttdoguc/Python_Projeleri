@@ -48,7 +48,7 @@ print("\nMatrisin transpozu: ")
 for satir in transpoz:
     print(satir)
 
-# 0 - 100 arası rastgele sayılardan oluşan 3x3 matriste 50'den büyük kaç tane sayı olduğunu bul
+# 0 - 100 arası rastgele sayılardan oluşan 3x3 matriste 50'den büyük kaç tane sayı olduğunu bulan kod
 
 import random
 
@@ -60,13 +60,13 @@ for satir in matris:
 buyuk_50 = sum(1 for satir in matris for eleman in satir if eleman > 50)
 print(f"Matriste 50'den büyük {buyuk_50} sayı var")
 
-# 1'den 10'a kadar olan sayıları ve karelerini matris olarak oluşturup yaz
+# 1'den 10'a kadar olan sayıları ve karelerini matris olarak oluşturup yazan kod
 
 matris = [[sayi, sayi**2]for sayi in range(1, 11)]
 for sayi in matris:
     print(sayi)
 
-# 0 - 100 arası rastgele sayılardan oluşturulan 4x4 matristeki en büyük, en küçük, ve ortalama sayıyı bul
+# 0 - 100 arası rastgele sayılardan oluşturulan 4x4 matristeki en büyük, en küçük, ve ortalama sayıyı bulan kod
 
 import random
 
@@ -81,7 +81,7 @@ en_kucuk = min(matris_elemanlar)
 ortalama = sum(matris_elemanlar) / len(matris_elemanlar)
 print(f"En büyük değer: {en_buyuk}, En küçük değer: {en_kucuk}, Ortalama değer: {ortalama}")
 
-# Girilen n değerine göre nxn matris oluşturup 1'den n'e kadar sırayla sayıları yerleştir
+# Girilen n değerine göre nxn matris oluşturup 1'den n'e kadar sırayla sayıları yerleştiren kod
 
 n = int(input("Matrisin boyutunu gir: "))
 matris = [[(i + j*n + 1)for i in range(n)]for j in range(n)]
