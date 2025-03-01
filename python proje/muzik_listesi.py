@@ -1,4 +1,4 @@
-# SQLITE VERİ TABANIYLA ÇALIŞAN MÜZİK LİSTESİ
+# SQLITE VERİTABANIYLA ÇALIŞAN MÜZİK LİSTESİ
 import sqlite3
 import time
 
